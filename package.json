@@ -1,7 +1,7 @@
 {
   "name": "midbot-wikipedia",
   "description": "A forked Hubot script for interacting with Wikipedia's API with Mid's personality.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Aimee Jarboe <maevrim@gmail.com>",
   "license": "MIT",
   "keywords": [

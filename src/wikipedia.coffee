@@ -52,9 +52,9 @@ module.exports = (robot) ->
                     summary = "Sorry Boss, no summary available"
                 else
                     summary = article.extract.split(". ")[0..1].join ". "
-
+                    
                 res.send "#{article.title}: #{summary}."
-                res.reply "Original article: #{createURL(article.title)}"
+                res.send "Here you go, Boss <:midheart:315017086655135755> #{createURL(article.title)}"
                 return
 
 createURL = (title) ->
