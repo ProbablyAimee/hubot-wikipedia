@@ -12,5 +12,5 @@ describe "wikipedia", ->
         require("../src/wikipedia")(@robot)
 
     it "registers a respond listener", ->
-        expect(@robot.respond).to.have.been.calledWith(/wiki search (.+)/i)
-        expect(@robot.respond).to.have.been.calledWith(/wiki summary (.+)/i)
+        expect(@robot.respond).to.have.been.calledWith(/wiki (.+)/i)
+        expect(@robot.respond).to.have.been.calledWith(/tell me about (.+)/i)
